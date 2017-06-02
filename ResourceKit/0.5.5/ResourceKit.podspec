@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author    = "Tom Hancocks"
+  s.platforms = { :ios => "10.0", :osx => "10.12" }
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.12"
   
